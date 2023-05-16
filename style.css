@@ -1,0 +1,58 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.luckyHeader {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.luckyNumber {
+  color: #ff5722;
+}
+
+.luckyButton {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.luckyButton:hover:not(.button-disabled) {
+  background-color: #1976d2;
+}
+
+.button-disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.message:first-of-type {
+  margin-top: 20px;
+}
